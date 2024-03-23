@@ -19,11 +19,11 @@ In this lab i demonstrate the prerequisites and installation of the open-source 
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Create Microsoft Azure Account
+- Create a resource group
+- Create a Windows 10 Virtual Machine (VM) with 2-4 Virtual CPU's
+- Allow for the creation of a new virtual network (vnet) when creating the new virtual machine
+- use installation files from google drive https://mail.google.com/mail/u/2/#inbox
 
 <h2>Installation Steps</h2>
 
