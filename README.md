@@ -50,7 +50,7 @@ CGI and Common HTTP Features
 ![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/9af90950-677e-4539-af4c-7b237bd55e49)
 
 <p>
-AND IIS Management 
+AND IIS Management Console
 <br>-  Internet Information Services -> Web Management Tools -> IIS Management Console </b>
 <br>- [X]  IIS Management Console </b>
 </p>
