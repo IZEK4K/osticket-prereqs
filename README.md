@@ -120,4 +120,78 @@ Install osTicket v1.15.8
 
 ![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/a4bb7eea-5cfc-474b-bdeb-2bc6d569e474)
 
+<p>
+<br>- Reload IIS (Open IIS, Stop and Start the server)</b>
+</p>
+
+<p>
+Go to sites -> Default -> osTicket
+<br>- On the right, click “Browse *:80” </b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/c9e5ee6c-36d2-4b53-992f-69b02ff502a0)
+
+<p>
+enable extensions
+<br>- Go back to IIS, sites -> Default -> osTicket </b>
+<br>- Double-click PHP Manager </b>
+<br>- Click “Enable or disable an extension” </b>
+  <br>- Enable: php_imap.dll </b>
+  <br>- Enable: php_intl.dll </b>
+  <br>- Enable: php_opcache.dll </b>
+<br>- Refresh the osTicket site in your browse, observe the changes </b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/3d2c4564-b97f-40fe-975c-87b6bf4798ad)
+
+<p>
+Rename: ost-config.php
+<br>- From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php </b>
+<br>- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php </b>
+</p>
+
+
+<p>
+Assign Permissions: ost-config.php
+<br>- Disable inheritance -> Remove All </b>
+<br>- New Permissions -> Everyone -> All </b>
+</p>
+
+
+<p>
+Continue Setting up osTicket in the browser (click Continue)
+<br>- Name Helpdesk </b>
+<br>- Default email (receives email from customers) </b>
+</p>
+
+<p>
+From the Installation Files, download and install HeidiSQL
+<br>- Open Heidi SQL </b>
+<br>- Create a new session, root/Password1 </b>
+<br>- Connect to the session </b>
+<br>- Create a database called “osTicket” </b>
+</p>
+
+<p>
+Continue Setting up osticket in the browser
+<br>- MySQL Database: osTicket </b>
+<br>- MySQL Username: root </b>
+<br>- MySQL Password: Password1 </b>
+<br>- Click “Install Now!” </b>
+</p>
+
+<p>
+Browse to the help desk login page: http://localhost/osTicket/scp/login.php
+</p>
+
+<p>
+Continue Setting up osticket in the browser
+<br>- Delete: C:\inetpub\wwwroot\osTicket\setup </b>
+<br>- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php </b>
+</p>
+
+
+
+
+
 
