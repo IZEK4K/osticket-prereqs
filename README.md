@@ -66,19 +66,58 @@ AND IIS Management Console
 <p>
 <br>-  Create the directory C:\PHP </b>
 </p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/fa7969fb-1f6c-4355-b0a3-850dd848247d)
+
+
 <p>
 <br>-  From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP </b>
 </p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/c15ac37b-2c6a-4bfe-a18a-67558257e9cd)
+
+
 <p>
 <br>-  from the installation files, download and install VC_redist.x86.exe</b>
 </p>
 
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/d918f2e0-1d1b-47d5-9518-4c7df25d2b1c)
+
+
 <p>
 From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
 <br>- Typical Setup -> </b>
-<br>- Launch Configuration Wizard (after install) -> </b>
 <br>- Standard Configuration -> </b>
 <br>- Password1 </b>
 </p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/e9541bfd-351c-4d08-8152-bdb84b747b1c)
+
+<p>
+<br>- Open IIS as an Admin</b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/1dbd1163-2625-42ce-9427-b619c5c97281)
+
+<p>
+<br>- Register PHP from within IIS</b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/581ca840-d0d8-459c-abd9-7fc8331411da)
+
+<p>
+<br>- Reload IIS (Open IIS, Stop and Start the server)</b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/75cf469c-bc5b-47ee-b0c7-c7c32f61bfd8)
+
+<p>
+Install osTicket v1.15.8
+<br>- Download osTicket from the Installation Files Folder </b>
+<br>- Extract and copy “upload” folder to c:\inetpub\wwwroot </b>
+<br>- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket” </b>
+</p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/a4bb7eea-5cfc-474b-bdeb-2bc6d569e474)
 
 
