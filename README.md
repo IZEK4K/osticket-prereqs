@@ -69,3 +69,16 @@ AND IIS Management Console
 <p>
 <br>-  From the Installation Files, download PHP 7.3.8 (php-7.3.8-nts-Win32-VC15-x86.zip) and unzip the contents into C:\PHP </b>
 </p>
+<p>
+<br>-  from the installation files, download and install VC_redist.x86.exe</b>
+</p>
+
+<p>
+From the Installation Files, download and install MySQL 5.5.62 (mysql-5.5.62-win32.msi)
+<br>- Typical Setup -> </b>
+<br>- Launch Configuration Wizard (after install) -> </b>
+<br>- Standard Configuration -> </b>
+<br>- Password1 </b>
+</p>
+
+
