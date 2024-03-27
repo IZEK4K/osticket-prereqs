@@ -150,6 +150,9 @@ Rename: ost-config.php
 <br>- To: C:\inetpub\wwwroot\osTicket\include\ost-config.php </b>
 </p>
 
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/b8ecae0d-6df1-4586-a3c0-65f804c9e01c)
+
+
 
 <p>
 Assign Permissions: ost-config.php
@@ -157,12 +160,20 @@ Assign Permissions: ost-config.php
 <br>- New Permissions -> Everyone -> All </b>
 </p>
 
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/9493ae6c-cfa2-44c1-8d1b-0db61770c1fe)
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/3f6a9719-8620-4ea2-9ff4-a0b3539f9bb9)
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/7d306299-dbc4-4856-a296-e2242e4ab2d3)
+
+
 
 <p>
 Continue Setting up osTicket in the browser (click Continue)
-<br>- Name Helpdesk </b>
-<br>- Default email (receives email from customers) </b>
 </p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/724586f2-b746-4398-9378-8b16560efc20)
+
 
 <p>
 From the Installation Files, download and install HeidiSQL
@@ -175,10 +186,11 @@ From the Installation Files, download and install HeidiSQL
 <p>
 Continue Setting up osticket in the browser
 <br>- MySQL Database: osTicket </b>
-<br>- MySQL Username: root </b>
-<br>- MySQL Password: Password1 </b>
 <br>- Click “Install Now!” </b>
 </p>
+
+![image](https://github.com/IZEK4K/osticket-prereqs/assets/90485066/b438d0d8-6e36-4402-8fc8-51d4d006c471)
+
 
 <p>
 Browse to the help desk login page: http://localhost/osTicket/scp/login.php
@@ -189,6 +201,8 @@ Continue Setting up osticket in the browser
 <br>- Delete: C:\inetpub\wwwroot\osTicket\setup </b>
 <br>- Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php </b>
 </p>
+
+Done! osticket is now ready for use
 
 
 
